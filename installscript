@@ -143,7 +143,7 @@ echo " ${GREEN}++++++++++++++++++++++++++++++"
 echo " ${RED}Installiere Node, NPM und Yarn"
 echo " ${GREEN}++++++++++++++++++++++++++++++${WHITE}"
 sudo apt -y install curl dirmngr apt-transport-https lsb-release ca-certificates
-curl -sL https://deb.nodesource.com/setup_15.x | sudo -E bash -
+curl -sL https://deb.nodesource.com/setup_16.x | sudo -E bash -
 sudo apt install nodejs -y
 nodejs -v
 curl -sL https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
